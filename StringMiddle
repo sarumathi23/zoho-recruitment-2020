@@ -1,0 +1,46 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+// Function that prints the middle
+// character of a string
+void printMiddleCharacter(string str)
+{
+	// Finding string length
+	int len = str.size();
+
+	// Finding middle index of string
+	int middle = len / 2;
+
+	// Print the middle character
+	// of the string
+	cout << str[middle]<<endl;
+
+	cout<<str[middle];
+	cout<<str[middle+1]<<endl;
+	
+		cout<<str[middle];
+	cout<<str[middle+1];
+	cout<<str[middle+2]<<endl;
+	
+	cout<<str[middle];
+	cout<<str[middle+1];
+	cout<<str[middle+2];
+	cout<<str[middle-2]<<endl;
+	
+	cout<<str[middle];
+	cout<<str[middle+1];
+	cout<<str[middle+2];
+	cout<<str[middle-2];
+	cout<<str[middle-1]<<endl;
+}
+
+// Driver Code
+int main()
+{
+	// Given string str
+	string str = "water";
+
+	// Function Call
+	printMiddleCharacter(str);
+	return 0;
+}
